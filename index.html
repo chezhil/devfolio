@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chezhil — Portfolio</title>
+  <meta name="description" content="Portfolio of Chezhil, a student developer building small, self-contained tools." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <div class="wrap header-row">
+      <span class="brand">Chezhil</span>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="about" class="wrap">
+      <img class="portrait" src="assets/portrait.svg" alt="Portrait mark for Chezhil" width="160" height="160" />
+      <h1>Hi, I'm Chezhil.</h1>
+      <p class="lede">
+        I'm a student developer who likes small tools that run on your own machine and
+        are short enough to read end to end. Right now I'm learning semantic HTML and
+        CSS layout on the front end, and indexing and search behind it.
+      </p>
+      <p>This page is hand-written — no framework and no build step.</p>
+    </section>
+
+    <section id="projects" class="wrap">
+      <h2>Projects</h2>
+      <ul class="project-grid">
+
+        <li class="card">
+          <h3>Rummage</h3>
+          <p>A private, offline search engine for a folder — it builds an inverted index and ranks results with hand-rolled TF-IDF.</p>
+          <a href="https://github.com/chezhil/Rummage">View on GitHub</a>
+        </li>
+
+        <li class="card">
+          <h3>Devfolio</h3>
+          <p>This portfolio: one page of semantic HTML using CSS variables, Flexbox and Grid, deployed on GitHub Pages.</p>
+          <a href="https://github.com/chezhil/devfolio">View the source</a>
+        </li>
+
+      </ul>
+    </section>
+
+  </main>
+
+  <footer id="contact">
+    <div class="wrap">
+      <h2>Contact</h2>
+      <ul class="contact-links">
+        <li><a href="mailto:shirs.chezhils@gmail.com">shirs.chezhils@gmail.com</a></li>
+        <li><a href="https://github.com/chezhil">github.com/chezhil</a></li>
+        <li><a href="https://www.linkedin.com/in/chezhil-s/">linkedin.com/in/chezhil-s</a></li>
+      </ul>
+      <p class="colophon">&copy; 2026 Chezhil. Built with HTML and CSS.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
